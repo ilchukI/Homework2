@@ -56,3 +56,38 @@ if 7.45 > 16.4:
     print('7.45 > 16.4')
 else:
     print('7.45 < 16.4')
+
+print(math.sqrt(a))
+
+print(math.sqrt(b))
+
+   
+   #3. Проект
+
+   #Ви хочете придбати планшет та деякі аксесуари (сумку,клавіатуру та ін.). Спосіб оплати: 
+   #сплачуєте 30% від суми при купівлі, а решту – 6-ма однаковими платежами.
+
+print("Планшет - 7000 грн.")
+
+tablet = 7000
+
+print('Чехол - 300 грн')
+
+case=300
+
+print('Наушники - 1000 грн')
+
+headphones = 1000
+
+sum = tablet + case + headphones
+
+print('Загальна вартість:',sum)
+
+sumOfOrder = (sum*30) /100
+
+print('Сума, при купівлі:', sumOfOrder)
+
+sumOfOnePayment = (sum - int(sumOfOrder))/6
+
+print('Сума одного платежу',sumOfOnePayment)
+
